@@ -126,6 +126,32 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.header .div {
-  background-color: green;
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+p {
+  font-size: 2rem;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+header .title {
+  display: flex;
+  justify-content: center;
+  background-color: palevioletred;
+}
+header .nav-box {
+  display: flex;
+  justify-content: center;
+  background-color: plum;
 }
