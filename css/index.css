@@ -155,3 +155,28 @@ header .nav-box {
   justify-content: center;
   background-color: plum;
 }
+.section1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: paleturquoise;
+}
+.section1 h2 {
+  font-size: 3rem;
+  padding: 2rem;
+}
+.section1 .btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: peachpuff;
+  height: 5rem;
+  width: 18rem;
+}
+.section1 .btn-box .btn {
+  height: 4rem;
+  width: 15rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  transition: all 0.2s linear;
+}
