@@ -1,18 +1,31 @@
 header{
    display:flex;
-   justify-content: space-around;
+   justify-content: space-between;
+   padding:2rem;
+   box-shadow: 1px 2px;
+   background-color: @Background-box-color;
 
-
-   .title{
-      display:flex;
-      justify-content: center;
-      background-color: palevioletred;
+   h1{
+      padding-left: 8rem;
    }
 
    .nav-box{
+      font-size: 3rem;
       display: flex;
-      justify-content: center;
-      background-color: plum;
+      align-items:flex-end;
+      width:35rem;
+
+      a{
+         font-weight: bold;
+         text-decoration: none;
+         padding-right: 2.6rem;
+         color:@Title-color;
+      }
+
+      a:hover{
+         color:@Tan;
+         text-decoration:underline;
+      }
 
    }
 }
