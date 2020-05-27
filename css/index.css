@@ -161,6 +161,15 @@ header {
   box-shadow: 1px 2px;
   background-color: #D7CEC7;
 }
+@media (max-width:500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+  }
+}
 header h1 {
   padding-left: 8rem;
 }
@@ -203,13 +212,9 @@ footer {
   padding-bottom: 5rem;
 }
 .section1 .missionStatement p {
-  padding-top: 2.5rem;
   color: #76323F;
 }
 .section1 .btn-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 3rem;
   border-radius: 1rem;
   background-color: #C09F80;
@@ -256,8 +261,8 @@ footer {
 .section3 {
   display: flex;
   justify-content: space-around;
-  padding: 4rem;
   align-items: center;
+  padding: 4rem;
   width: 100%;
   height: 50rem;
   margin-right: 8rem;
