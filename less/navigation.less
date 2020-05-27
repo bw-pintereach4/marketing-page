@@ -6,11 +6,19 @@ header{
 
    @media @phone{
       .flex-section(column,center,center);
-      background-color: blue;
+        .title{
+         height: 12rem;
+      }
    }
 
    h1{
       padding-left: 8rem;
+
+      @media @phone{
+         padding-left: 0rem;
+         padding-right:2rem;
+         font-size: 10rem;
+      }
    }
 
    .nav-box{
@@ -19,11 +27,16 @@ header{
       align-items:flex-end;
       width:35rem;
 
+
       a{
+
          font-weight: bold;
          text-decoration: none;
+         padding-top: 2rem;
          padding-right: 2.6rem;
          color:@Title-color;
+
+ 
       }
 
       a:hover{

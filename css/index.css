@@ -167,11 +167,20 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+  }
+  header .title {
+    height: 12rem;
   }
 }
 header h1 {
   padding-left: 8rem;
+}
+@media (max-width:500px) {
+  header h1 {
+    padding-left: 0rem;
+    padding-right: 2rem;
+    font-size: 10rem;
+  }
 }
 header .nav-box {
   font-size: 3rem;
@@ -182,6 +191,7 @@ header .nav-box {
 header .nav-box a {
   font-weight: bold;
   text-decoration: none;
+  padding-top: 2rem;
   padding-right: 2.6rem;
   color: #76323F;
 }
@@ -215,6 +225,10 @@ footer {
   color: #76323F;
 }
 .section1 .btn-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 3rem;
   border-radius: 1rem;
   background-color: #C09F80;
